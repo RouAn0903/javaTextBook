@@ -5,8 +5,5 @@ public class Super {
         Child c=new Child();
         c.show();
 
-        Parent p=c;
-        System.out.println(p.i);
-
     }
 }

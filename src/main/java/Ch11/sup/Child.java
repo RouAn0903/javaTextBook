@@ -4,7 +4,7 @@ public class Child extends Parent{
     int i=20;
 
     void show(){
-        System.out.println("super.i= "+super.i);
-        System.out.println("child.i="+i);
+        System.out.println("child:"+i);
+       super.show();
     }
 }
