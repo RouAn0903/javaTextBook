@@ -8,16 +8,16 @@ public class Account {
     }
 
     public void deposit(long money) throws AccountError{
-        if(money <0){
-            throw new AccountError("Deposit cannot be negative");
+        if(money<0){
+            System.out.print("Deposit money can't be negative");
         }else{
-            balance +=money;
+            balance+=money;
         }
     }
 
     public void withdraw(long money) throws AccountError{
-        if(money >balance){
-            throw new AccountError("Insufficient deposit");
+        if(balance<money){
+            System.out.println("There is't enough money");
         }else{
             balance-=money;
         }
