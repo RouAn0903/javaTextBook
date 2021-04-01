@@ -62,3 +62,16 @@ Ch12/mulinter/Parent2.java
  Ch12.mulinter.Parent2
 Ch12/mulinter/Parent1.java
  Ch12.mulinter.Parent1
+Ch12/inner/Outer.java
+ Ch12.inner.Outer
+ Ch12.inner.Outer$Inner
+Ch12/inner/InnerClass.java
+ Ch12.inner.InnerClass
+Ch12/anony/Face.java
+ Ch12.anony.Face
+Ch12/anony/AnonyDemo.java
+ Ch12.anony.AnonyDemo
+ Ch12.anony.AnonyDemo$1
+Ch12/anony/AnonyFace.java
+ Ch12.anony.AnonyFace
+ Ch12.anony.AnonyFace$1
