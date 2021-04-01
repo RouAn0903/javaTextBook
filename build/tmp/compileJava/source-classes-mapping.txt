@@ -75,3 +75,7 @@ Ch12/anony/AnonyDemo.java
 Ch12/anony/AnonyFace.java
  Ch12.anony.AnonyFace
  Ch12.anony.AnonyFace$1
+Ch12/lambda/Face1.java
+ Ch12.lambda.Face1
+Ch12/lambda/LambdaFace.java
+ Ch12.lambda.LambdaFace
