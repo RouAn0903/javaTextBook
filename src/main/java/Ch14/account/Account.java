@@ -1,5 +1,7 @@
 package Ch14.account;
 
+import java.io.IOException;
+
 public class Account {
     private long balance;
 
@@ -9,15 +11,15 @@ public class Account {
 
     public void deposit(long money) throws AccountError{
         if(money<0){
-            System.out.print("Deposit money can't be negative");
+            throw new AccountError("Deposit can't negative");
         }else{
             balance+=money;
         }
     }
 
     public void withdraw(long money) throws AccountError{
-        if(balance<money){
-            System.out.println("There is't enough money");
+        if(money>balance){
+            throw new AccountError("There's not enough money");
         }else{
             balance-=money;
         }
