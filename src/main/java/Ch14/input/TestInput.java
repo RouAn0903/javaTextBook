@@ -2,8 +2,8 @@ package Ch14.input;
 
 public class TestInput {
     public static void main(String[] args) {
-        int[] secret ={123, 456, 789, 1029, 1345};
-        System.out.println("There are five secret number, choose one");
+        int[] secret = {123,456,789,1234,2345};
+        System.out.println("There are five secret numbers, choose one");
 
         Input.value();
 
